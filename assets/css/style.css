@@ -370,7 +370,7 @@ textarea:focus {
 }
 
 .info-icon i {
-    color: #d01818;
+    color: #f06b6b;
     font-size: 40px;
 }
 .info-icon {
@@ -401,7 +401,7 @@ textarea:focus {
     left: 0;
     top: 100%;
     z-index: 99;
-    background: #000;
+    background: rgb(0, 0, 0);
     width: 200px;
     padding: 5px 25px;
 	
@@ -428,7 +428,7 @@ textarea:focus {
     display: none;
 }
 .slicknav_nav {
-    background-color: #222222;
+    background-color: #be1717;
     padding: 5px 12px;
 }
 .slicknav_nav li {
@@ -456,7 +456,7 @@ a.slicknav_item.slicknav_row {
     background: transparent;
 }
 .menu-area {
-    background: #082a46;
+    background: #0cdfdf;
     margin: 0;
 }
 .header-bottom-right {
@@ -467,7 +467,7 @@ a.slicknav_item.slicknav_row {
     z-index: 999;
 }
 .header-bottom.sticky {
-    background: #000;
+    background: rgb(245, 16, 16);
 	border-bottom: 1px solid #fff;
     position: fixed;
     left: 0;
