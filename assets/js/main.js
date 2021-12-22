@@ -9,17 +9,7 @@
 		prependTo: '.responsive-menu'
 	});
 	
-	/*----------------------------
-    START - Menubar scroll animation
-    ------------------------------ */
-	jQuery(window).on('scroll', function() {
-		if ($(this).scrollTop() > 480) {
-			$('.header-bottom').addClass("sticky");
-		} else {
-			$('.header-bottom').removeClass("sticky");
-		}
-	});
-	
+
 	/*-------------------------
 	START - search bar toggle
 	--------------------------*/
@@ -146,44 +136,7 @@
 		return false;
 	});
 	
-	/*----------------------------
-    START - Isotope
-    ------------------------------ */
-    jQuery(".choose-item").isotope();
-    $(".choose-menu button").on("click", function(){
-      $(".choose-menu button").removeClass("active");
-      $(this).addClass("active");
-      var selector = $(this).attr('data-filter');
-      $(".choose-item").isotope({
-        filter: selector
-      })
-    });
-	$(document).ready(function() {
-		/*----------------------------
-		START - Vega slider
-		------------------------------ */
-		$("#slideslow-bg").vegas({
-			overlay: true,
-			autoHeight: true,
-			transition: 'fade',
-			transitionDuration: 2000,
-			delay: 4000,
-			color: '#000',
-			animation: 'random',
-			animationDuration: 20000,
-			slides: [
-				{
-					src: 'assets/img/hero-area.jpg'
-				},
-				{
-					src: 'assets/img/about-bg.jpg'
-				},
-				{
-					src: 'assets/img/funfact-bg2.jpg'
-				}
-			]
-		});
-	});
+	
 	/*----------------------------
     START - Preloader
     ------------------------------ */

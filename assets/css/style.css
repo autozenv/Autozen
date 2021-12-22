@@ -1,10 +1,3 @@
-/*
-Theme Name: Xarkasin
-Author: Aklima Akter
-Version: 1.0
-Description: Car Dealer Template
-*/
-
 /**
  *** CSS Indexing ***
  * THEME DEFAULT CSS
@@ -53,7 +46,7 @@ body {
     line-height: 25px;
     font-size: 14px;
     color: #666666;
-	font-family: 'Poppins', sans-serif;
+	  font-family: 'Poppins', sans-serif;
     font-weight: 300;
 }
 
@@ -370,7 +363,7 @@ textarea:focus {
 }
 
 .info-icon i {
-    color: #f06b6b;
+    color: #6bf0c8;
     font-size: 40px;
 }
 .info-icon {
@@ -503,7 +496,7 @@ a.slicknav_item.slicknav_row {
 	content: "";
 	top: 0;
 	left: 0;
-    opacity: 0.75;
+  opacity: 0.75;
 	right: 0;
 	bottom: 0;
 	z-index: -1;
@@ -638,12 +631,12 @@ select {
 .about-bottom {
 	z-index: 0;
     position: relative;
-    background-image: url(../img/about-bottom.jpg);
+    background-image: url(../img/footer-logo.png);
 	background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-	overflow: hidden;
+	  overflow: hidden;
 }
 .about-bottom::before {
     content: "";
@@ -820,12 +813,12 @@ select {
 .funfact-area {
 	z-index: 0;
     position: relative;
-    background-image: url(../img/funfact-bg.png);
+    background-image: url(../img/footer-logo.png);
     background-repeat: no-repeat;
-	background-attachment: fixed;
+	  background-attachment: fixed;
     background-position: center;
     background-size: cover;
-	overflow: hidden;
+	  overflow: hidden;
     color: #fff;
 }
 .funfact-area::before {
@@ -866,152 +859,6 @@ select {
 }
 /*--------------------------------------
 --------- FUNFACT AREA CSS END ---------
----------------------------------------*/
-
-/*-----------------------------------
--------- TEAM AREA CSS START --------
-------------------------------------*/
-.single-team {
-    display: flex;
-    margin-top: 30px;
-}
-
-.team-image {
-    flex: 1;
-    height: 300px;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.team-content {
-    flex: 1;
-    border-bottom: 1px solid #ccc;
-    border-top: 1px solid #ccc;
-    border-right: 1px solid #ccc;
-    border-left:0;
-    text-align: center;
-    padding: 25px;
-    transition: 0.4s;
-}
-
-.team-shape {
-    width: 105px;
-    height: 2px;
-    background: #d01818;
-    margin: 0 auto 20px;
-    position: relative;
-    transition: 0.4s;
-}
-
-.team-content p {
-    padding-bottom: 5px;
-}
-
-.team-shape::before {
-    content: "";
-    position: absolute;
-    width: 61px;
-    height: 2px;
-    background: #d01818;
-    margin: auto;
-    top: 5px;
-    left: 0;
-    right: 0;
-    transition: 0.4s;
-}
-
-.team-content a {
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
-    border: 1px solid #d01818;
-    display: inline-block;
-    margin: 0 1px;
-    color: #d01818;
-    border-radius: 100%;
-    margin-top: 12px;
-}
-
-.single-team:hover .team-content {
-    background: #d01818;
-    color: #fff;
-}
-
-.single-team:hover .team-content h4 {
-    color: #fff;
-}
-
-.single-team:hover .team-content a {
-    border-color: #fff;
-    color: #fff;
-}
-
-.single-team:hover .team-shape,.single-team:hover .team-shape::before {
-    background: #fff;
-}
-
-.team-content h4 {
-    transition: 0.4s;
-	text-transform: uppercase;
-	margin-bottom: 2px;
-}
-.team-image-bg-1 {
-	background-image: url('../img/team/team1.png');
-}
-.team-image-bg-2 {
-	background-image: url('../img/team/team2.png');
-}
-.team-image-bg-3 {
-	background-image: url('../img/team/team3.png');
-}
-.team-image-bg-4 {
-	background-image: url('../img/team/team4.png');
-}
-/*-----------------------------------
---------- TEAM AREA CSS END ---------
-------------------------------------*/
-
-/*--------------------------------------
------- TESTIMONIAL AREA CSS START ------
----------------------------------------*/
-.testimonial-area {
-    background: url(../img/testimonial-bg.jpg) no-repeat center center / cover;
-    position: relative;
-    z-index: 0;
-	color: #fff;
-}
-.testimonial-area h4 ,
-.testimonial-area h2 {
-	color: #fff;
-}
-.testimonial-area::before {
-    background: #000;
-    opacity: 0.75;
-    position: absolute;
-    content: "";
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-}
-.testimonial-slider.owl-carousel .owl-item img {
-    width: auto;
-    margin: auto;
-    margin-bottom: 15px;
-}
-
-.single-testimonial-box {
-    border: 1px solid #fff;
-    margin-bottom: 1px;
-    padding: 30px 20px;
-    text-align: center;
-}
-
-.single-testimonial-box p:last-child {
-    margin-top: 12px;
-}
-/*--------------------------------------
-------- TESTIMONIAL AREA CSS END -------
 ---------------------------------------*/
 
 /*--------------------------------------
@@ -1152,15 +999,14 @@ select {
 ------- FOOTER AREA CSS START --------
 --------------------------------------*/
 .footer {
-    background: url(../img/footer-bg.jpg) no-repeat center center / cover;
     position: relative;
     z-index: 0;
     color: #fff;
-	padding-top: 100px;
+	  padding-top: 50px;
 }
 .copyright::before,
 .footer::before {
-    background: #000;
+    background: rgb(0, 0, 0);
     z-index: -1;
     opacity: 0.75;
     position: absolute;
@@ -1479,7 +1325,6 @@ select {
 .about-area {
 	z-index: 0;
     position: relative;
-    background-image: url(../img/about-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1547,7 +1392,6 @@ select {
 .funfact-area2 {
     z-index: 0;
     position: relative;
-    background-image: url(../img/funfact-bg2.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -1569,90 +1413,6 @@ select {
 }
 /*--------------------------------------
 --------- FUNFACT AREA CSS END ---------
----------------------------------------*/
-
-/*--------------------------------------
--------- TEAM AREA CSS START --------
----------------------------------------*/
-.single-team-member {
-    text-align: center;
-    transition: all 0.4s;
-	margin-top: 30px;
-}
-.team-member-info h4 {
-	font-size: 20px;
-	color: #fff;
-}
-.team-member-info {
-    padding: 15px;
-	background: #ffb400;
-	color: #fff;
-}
-.team-member-img {
-    position: relative;
-    z-index: 0;
-    overflow: hidden;
-}
-.team-member-icon {
-    position: absolute;
-    top: 100%;
-	left: 0%;
-    height: 100%;
-    width: 100%;
-    transition: all 0.4s;
-}
-.team-member-img::before {
-    content: "";
-    background: #000;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 0;
-    transition: all 0.4s;
-    position: absolute;
-    opacity: 0.75;
-}
-.team-member-icon a {
-    color: #ffb400;
-	width: 30px;
-	height: 30px;
-	margin: 0 2px;
-	display: inline-block;
-	line-height: 30px;
-	border: 1px solid #ffb400;
-	border-radius: 30px;
-}
-.team-member-icon a:hover {
-    color: #fff;
-	background: #ffb400;
-}
-.single-team-member:hover .team-member-img::before {
-    height: 100%;
-}
-.single-team-member:hover .team-member-icon  {
-    top: 0;
-}
-/*--------------------------------------
---------- TEAM AREA CSS END ---------
----------------------------------------*/
-
-/*--------------------------------------
--------- testimonial AREA CSS START --------
----------------------------------------*/
-.testimonial-slider2.owl-carousel .owl-item img {
-    width: auto;
-    margin: auto;
-    margin-bottom: 15px;
-}
-
-.testimonial-slider2 .single-testimonial-box {
-    max-width: 670px;
-    margin: auto;
-    border: none;
-    padding: 0;
-}
-/*--------------------------------------
---------- testimonial AREA CSS END ---------
 ---------------------------------------*/
 
 /*--------------------------------------
@@ -1753,7 +1513,6 @@ select {
     text-align: center;
     z-index: 1;
     position: relative;
-    background-image: url(../img/hero-area.jpg);
     background-attachment: fixed;
     background-size: cover;
     padding: 220px 0px 100px;
@@ -1877,13 +1636,13 @@ select {
 /*--------------------------------------
 ------ BLOG DETAILS PAGE CSS START -----
 ---------------------------------------*/
-.blog-details h4.post-title {
+.blog h4.post-title {
     margin: 20px 0 2px;
 }
-.blog-details .post-author {
+.blog .post-author {
     margin: 15px 0;
 }
-.blog-details > p {
+.blog > p {
     margin-bottom: 15px;
 }
 .blog-detail-middle {
@@ -2090,77 +1849,3 @@ select {
 ------- BLOG DETAILS PAGE CSS END ------
 ---------------------------------------*/
 
-/*--------------------------------------
------ CAR LISTING PAGE CSS START -------
----------------------------------------*/
-.single-post.listing-post {
-    background: #fff;
-    padding: 20px;
-    font-size: 12px;
-}
-
-.single-post.listing-post:first-child {
-    margin-top: 0;
-}
-.list-area {
-	background: #f1f1f1
-}
-
-.single-post.listing-post p {
-	margin-bottom: 20px;
-    margin-top: 20px;
-}
-.single-post.listing-post h4.post-title {
-    position: relative;
-    padding-bottom: 10px;
-    margin-bottom: 12px;
-}
-
-.single-post.listing-post h4.post-title::before {
-    content: "";
-    bottom: 0;
-    left: 8px;
-    background: #aaa;
-    width: 50px;
-    height: 1px;
-    position: absolute;
-}
-
-.single-post.listing-post h4.post-title::after {
-    content: "";
-    bottom: -3px;
-    left: 0;
-    background: #aaa;
-    width: 50px;
-    height: 1px;
-    position: absolute;
-}
-.search_title {
-	padding: 12px;
-    text-align: center;
-    text-transform: uppercase;
-    border-bottom-color: #d01818;
-    color: white;
-    border-bottom-width: 3px;
-    border-bottom-style: solid;
-    border-radius: 2px 2px 0 0;
-    background-color: #222;
-}
-.list-sidebar {
-    background: #fff;
-    overflow: hidden;
-    padding: 0 20px 40px;
-}
-
-.list-sidebar input,.list-sidebar select {
-    margin: 10px 0 0;
-    border: 1px solid #ccc;
-}
-
-.list-sidebar h5 {
-    margin-top: 38px;
-}
-
-/*--------------------------------------
---------- SERVICE AREA CSS END ---------
----------------------------------------*/
