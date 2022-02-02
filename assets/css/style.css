@@ -343,7 +343,7 @@ textarea:focus {
 }
 
 .header-top-content select option {
-    color: #666;
+    color: rgb(45, 223, 140);
 }
 /*--------------------------------------
 --------- HEADER TOP AREA CSS END ---------
@@ -501,7 +501,7 @@ a.slicknav_item.slicknav_row {
 	bottom: 0;
 	z-index: -1;
 	position: absolute;
-	background: #000000;
+	background: #33ad5c;
 }
 .hero-area-content {
     text-align: center;
@@ -1006,7 +1006,7 @@ select {
 }
 .copyright::before,
 .footer::before {
-    background: rgb(0, 0, 0);
+    background: rgb(51, 173, 92);
     z-index: -1;
     opacity: 0.75;
     position: absolute;
@@ -1140,7 +1140,7 @@ select {
 	display: none;
     height: 40px;
     line-height: 39px;
-    background: #000;
+    background: rgb(250, 2, 2);
 	display: none;
     color: #fff;
     position: fixed;
@@ -1176,7 +1176,7 @@ select {
   overflow: visible;
   width: 100%;
   height: 100%;
-  background: #fff;
+  background: rgb(255, 255, 255);
   text-align: center;
 }
 #preloader img {
@@ -1473,7 +1473,7 @@ select {
 .sell-area .container::before {
 	position: absolute;
 	z-index: -1;
-	background: #1b1b1b;
+	background: #33ad5c;
 	top: 0;
 	content: "";
 	left: -30%;
